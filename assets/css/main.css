@@ -3,7 +3,7 @@
 
 /*
 	Solid State by HTML5 UP
-	html5up.net | @ajlkn
+	html5up.net | 
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -48,7 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Box Model */
+/* 设置四个框*/
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -3339,7 +3339,7 @@
 
 	.wrapper {
 		background-color: #2e3141;
-		margin: 6.5em 0;
+		margin: 0em 0;   /*控制间隔*/
 		position: relative;
 	}
 
@@ -3360,7 +3360,7 @@
 			background-size: 100% 100%;
 			content: '';
 			display: block;
-			height: 6.5em;
+		/*	height: 6.5em;     */
 			position: absolute;
 			width: 100%;
 		}
@@ -3369,7 +3369,7 @@
 			left: 0;
 			top: -6.5em;
 		}
-
+	
 		.wrapper:after {
 			-moz-transform: scaleY(-1);
 			-webkit-transform: scaleY(-1);
@@ -3533,7 +3533,7 @@
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+			/*	text-align: right;  设置对齐*/
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
